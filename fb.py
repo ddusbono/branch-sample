@@ -1,8 +1,9 @@
-for j in range(1, 20+1):
-    # on branch main
-    # fizzbuzz
+<<<<<<< HEAD
+for j in range(4, 15+1):
     if j % 15 == 0:
         print('fizzbuzz')
+    elif j % 5 == 0:
+        print('buzz')
     elif j % 3 == 0:
         print('fizz')
     else:
